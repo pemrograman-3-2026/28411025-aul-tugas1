@@ -23,7 +23,7 @@
     font-size: 25px;
     color: wheat;
     font-weight: 600;
-    transition: 0.3s;
+    transition: 0.3s ease;
 }
 .logo:hover{
     color: pink;
@@ -75,7 +75,8 @@ span{
     max-width: 800px;
 }
 .home.content h3{
-    font-size:  42px;
+    font-size:  22px;
+    line-height: 1.2;
 }
 .home.content h1{
   font-size: 62px;
@@ -125,9 +126,9 @@ span{
     
 }
 .img-box img{
-    position: relative;
+ 
     border-radius:50%;
-    width: 250px;
+    width: 300px;
 
 }
 ::-webkit-scrollbar{
@@ -173,7 +174,7 @@ span{
   text-align: center;
   margin-top: 3em;  
   margin-bottom: 1em;
-  font-size: 36px;
+  font-size: 26px;
 }
 .contact-from form{
     max-width: 50em;
@@ -190,12 +191,11 @@ span{
  .contact-from textarea  {
       width: 100%;
       padding-bottom: 1.5em;
-      height: 150px;
-        font-size: 18px;
+        font-size: 12px;
        color: black;
        background: rgb(241, 241, 241);
-       border-radius:  .8rem;
+       border-radius:  2rem;
        margin-bottom: 1rem 0;
-        resize: vertical;
+        resize: none;
 
  }  
